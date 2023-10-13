@@ -1,0 +1,41 @@
+<%- include("partials/header.ejs") %>
+
+
+<% const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; %>
+
+<% const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; %>
+
+<% const today = new Date() %>
+<% const day = days[today.getDay()] %>
+<% const month =months[today.getMonth()] %>
+<% const date = today.getDate() %>
+<div class="title">
+    <h1> <%= day %>, <%= month %> <%= date %> </h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-md-4 shadow-lg mb-5 bg-body rounded box">
+            <form>
+                <ul class="nav flex-column">
+                    <% for( let i = 0; i < 10; i++ ) { %>
+                        <li>
+                            <input class="checkbox" type="checkbox" name="" id="">
+                            <input type="text" name="" id="">
+                        </li><hr>
+                        <% } %>
+                    <li>
+                        <input type="text" name="" id="" placeholder="Add New Item">
+                        <img class="add" src="images\square-plus-solid.svg" alt="">
+                    </li>
+                </ul>
+                
+            </form>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+
+<%- include("partials/footer.ejs") %>
