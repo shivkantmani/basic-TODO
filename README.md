@@ -1,4 +1,5 @@
 # basic-TODO
 
-![image](https://github.com/shivkantmani/basic-TODO/assets/62963182/fa3900ff-2afb-4877-ad03-81f8858293fa)
-![image](https://github.com/shivkantmani/basic-TODO/assets/62963182/1e7dc83a-b4b4-41b1-b69b-0dc1a88a0e17)
+![image](https://github.com/shivkantmani/basic-TODO/assets/62963182/bbdca521-034c-4214-9842-c33e2f7fc829)
+![image](https://github.com/shivkantmani/basic-TODO/assets/62963182/70e5dfdf-6c5c-419b-b7fb-3389f38b12c9)
+
